@@ -6,11 +6,58 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 	<title>Image Carousel</title>
 </head>
 
+<body>
+	<div class="container">
+		<div class="images">
+			<div class="img fade">
+				<img src="img/1.jpg" alt="img">
+			</div>
+			<div class="img fade">
+				<img src="img/2.jpg" alt="img">
+			</div>
+			<div class="img fade">
+				<img src="img/3.jpg" alt="img">
+			</div>
+			<div class="img fade">
+				<img src="img/4.jpg" alt="img">
+			</div>
+			<div class="img fade">
+				<img src="img/5.jpg" alt="img">
+			</div>
+			<div class="img fade">
+				<img src="img/6.jpg" alt="img">
+			</div>
+			<div class="img fade">
+				<img src="img/7.jpg" alt="img">
+			</div>
+			<div class="img fade">
+				<img src="img/8.jpg" alt="img">
+			</div>
+			<div class="img fade">
+				<img src="img/9.jpg" alt="img">
+			</div>
+			<i id="prev" onclick="showImage(-1)" class='bx bxs-chevron-left'></i>
+			<i id="next" onclick="showImage(1)" class='bx bxs-chevron-right'></i>
+		</div>
 
-<script src="js/script.js"></script>
+		<div class="dots">
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
 </body>
 
 </html>
